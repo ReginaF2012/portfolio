@@ -5,34 +5,44 @@ body {
 
 .header {
   background-color: rgb(60, 60, 60);
-  width: 100%;
+  width: 100vw;
   height: 3em;
 }
 
 .name-logo {
   float: left;
   padding-top: 1rem;
-  padding-left: 1rem;
 }
 
 .name-logo > a {
   text-decoration: none;
+  font-size: large;
   color:rgb(180, 187, 188);
 }
 
-.navigation {
-  float: right;
-  align-items: center;
+.sidebar {
+  height: 100vh;
+  width: 15rem;
+  float: left;
+  background-color: #111;
+  font-size: large;
+  background-color: rgb(37, 37, 38);
 }
 
 .nav-item {
-  float: left;
-  padding-top: 1rem;
-  padding-right: 1rem;
+  padding-top: 2rem;
+}
+
+.right-arrow {
+  font-size: 50px;
+  font-weight: lighter;
 }
 
 .nav-item > a {
   text-decoration: none;
+  font-weight: bolder;
+  padding-left: 0.5rem;
+  vertical-align: 25%;
   color: rgb(180, 187, 188);
 }
 
@@ -43,10 +53,11 @@ body {
 
 .regina-picture {
   width: 25rem;
-  height: 30rem;
+  max-height: auto;
   object-fit: cover;
   object-position: top;
-  border-radius: 50%;
+  border-radius: 5%;
+  margin-bottom: 1rem;
 }
 
 .home {
@@ -54,17 +65,27 @@ body {
   flex-direction: column;
   text-align: center;
   padding-top: 3rem;
-  color: 	rgb(140, 191, 207);
-  background-color: rgb(37, 37, 38);
-  width: 75%;
-  margin: auto;
+  color: 	rgb(35, 170, 242);
+  background-color: rgb(30, 30, 30);
+  margin-left: auto;
 }
 
 .about {
   border-color:rgb(46, 46, 46);
   border-style: solid;
-  border-width: 0 0 2px 0;
+  border-width: 2px 0 0 0;
 }
 
+
+@media only screen and (max-width: 700px) {
+
+  .sidebar {
+    width: 30%;
+  }
+
+  .regina-picture {
+    width: 50%;
+  }
+}
 
 
