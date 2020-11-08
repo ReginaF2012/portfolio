@@ -11,7 +11,7 @@ function App() {
       < Header />
       < Sidebar />
       <Switch>
-        <Route path='/'>
+        <Route exact path='/'>
           < Home />
         </Route>
       </Switch>
