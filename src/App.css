@@ -160,6 +160,19 @@ body {
   .bio > h2 {
     font-size: 1em;
   }
+
+  .regina-picture {
+    margin-left: 0;
+  }
+  .project-description {
+    overflow-wrap: break-word;
+  }
+
+  .about {
+    margin-left: 1rem;
+    width: 75%;
+    display: block;
+  }
 }
 
 
