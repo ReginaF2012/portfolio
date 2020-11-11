@@ -110,22 +110,41 @@ body {
 }
 
 .project {
+  text-align: center;
   padding-left: 3rem;
+  padding-right: 3rem;
   padding-bottom: 2rem;
   border-color: rgb(46, 46, 46);
   border-style: solid;
-  border-bottom-width: 2px;
+  border-width: 0 0 2px 0;
 }
+
 .project-description {
-  float: left;
-  padding-top: 4rem;
-  margin-left: 2rem;
-  width: 30%
+  max-width: 800px;
 }
 
 .video {
-  float: left;
-  max-width: 30%;
+  max-width: 800px;
+}
+
+.repos {
+  list-style: inside;
+}
+
+/* iframe css found here: https://www.benmarshall.me/responsive-iframe-generator/ */
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 

@@ -5,7 +5,9 @@ export default function Project({name, videoURL, repos, description}){
         <div className='project'>
             <div className='video'>
                 <h2>{name}</h2>
-                <iframe src={videoURL}/>
+                <div class="iframe-container">
+                    <iframe loading="lazy" src={videoURL}/>
+                </div>
             </div>
             <div className='project-description'>
                 <p>{description}</p>
