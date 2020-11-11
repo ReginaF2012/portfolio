@@ -35,8 +35,6 @@ export default function Portfolio(){
                 videoURL='https://youtube.com/embed/bdo7sxqo8qM'
                 description='Ruby CLI Gem. Scrapes info from https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons) using Nokogiri. Allows users to learn more about the characters in Animal Crossing and play a Guess the Villager minigame.'
             />
-
-            <Project/>
         </div>
     )
 }

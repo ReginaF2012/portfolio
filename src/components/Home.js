@@ -6,7 +6,7 @@ export default function Home(){
         <div className='home section'>
             <div className='summary'>
                 <div className='bio'>
-                    <h2>/* Hello there! */</h2>
+                    <h2>/* Hello */</h2>
                     <p>
                         I'm in search of opportunities in software engineering and web development. Experienced in React, JavaScript, Ruby, and Ruby on Rails. Great communicator, teamplayer, and problem solver.
                         <br/><br/>
