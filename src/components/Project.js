@@ -5,18 +5,25 @@ export default function Project({name, videoURL, repos, description}){
         <div className='project'>
             <div className='video'>
                 <h2>{name}</h2>
-                <div class="iframe-container">
-                    <iframe loading="lazy" src={videoURL}/>
+                <div class='iframe-container'>
+                    <iframe loading='lazy' src={videoURL}/>
                 </div>
             </div>
             <div className='project-description'>
                 <p>{description}</p>
                 <ul className='repos'>
-                    Repos: {repos.map(repo => {
-                    return <li><a href={Object.values(repo)[0]}> {Object.keys(repo)[0]}</a></li>
+                    Repo(s): {repos.map(repo => {
+                    return <li><a target='_blank' href={Object.values(repo)[0]}> {Object.keys(repo)[0]}</a></li>
                     })}
                 </ul>
             </div>   
         </div>
     )
+}
+
+Project.defaultProps = {
+    'name': 'unknown',
+    'videoURL': '',
+    'repos': [{'NO REPO': '/portfolio'}],
+    'description': 'NOT FOUND'
 }
