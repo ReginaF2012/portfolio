@@ -12,7 +12,7 @@ export default function Sidebar(){
 
             <div className='nav-item'>
                 <span class="iconify" data-icon="entypo-chevron-thin-right" data-inline="false"></span>
-                <Link to='/projects'>portfolio</Link>   
+                <Link to='/portfolio'>portfolio</Link>   
             </div>
 
             <div className='nav-item'>

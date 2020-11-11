@@ -3,7 +3,7 @@ import image from '../images/20200825_071055.jpg';
 
 export default function Home(){
     return (
-        <div className='home'>
+        <div className='home section'>
             <div className='summary'>
                 <div className='bio'>
                     <h2>/* Hello there! */</h2>
@@ -23,7 +23,7 @@ export default function Home(){
                     <p>
                         Originally from upstate New York. Moved to the Greater St. Louis area earlier this year. I decided that along with change of location that I wanted to finally pursue my dream of becoming a software engineer!
                         <br/><br/><br/>
-                        Philomath, animal lover, and dreamer. I enjoy being in nature, drawing, and playing video games in my spare time.
+                        Curious, animal lover, and dreamer. I enjoy being in nature, drawing, and learning in my spare time.
                     </p>
                 </div>
                   
