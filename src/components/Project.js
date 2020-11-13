@@ -5,15 +5,15 @@ export default function Project({name, videoURL, repos, description}){
         <div className='project'>
             <div className='video'>
                 <h2>{name}</h2>
-                <div class='iframe-container'>
-                    <iframe loading='lazy' src={videoURL}/>
+                <div class='iframe-container' >
+                    <iframe loading='lazy' title={name+' Video Walkthrough'} src={videoURL}/>
                 </div>
             </div>
             <div className='project-description'>
                 <p>{description}</p>
                 <ul className='repos'>
                     Repo(s): {repos.map(repo => {
-                    return <li><a target='_blank' href={Object.values(repo)[0]}> {Object.keys(repo)[0]}</a></li>
+                    return <li><a target='_blank' rel='noreferrer' href={Object.values(repo)[0]}> {Object.keys(repo)[0]}</a></li>
                     })}
                 </ul>
             </div>   

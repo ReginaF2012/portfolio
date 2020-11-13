@@ -149,19 +149,70 @@ body {
 
 .contact-links {
   float: right;
-  display: flex;
-  height: calc(3rem - 4px);
-  padding-right: .5rem;
-  background-color: rgb(255, 255, 255);
-  border-width: 2px;
-  border-style: solid;
-  border-color: rgb(180, 187, 188);
+  padding-right: .5rem
+}
+
+.social-media {
+  float: left;
 }
 
 .sm-logo {
   padding-left: 1rem;
   padding-top: .5rem;
+  height: 32px;
+  width: auto;
 }
+
+.large-logo {
+  height: 64px;
+  width: auto;
+}
+
+.large-linkedin {
+  height: 56px;
+  width: auto;
+}
+
+.white {
+  filter: brightness(0) invert(1);
+}
+
+.contact {
+  margin-left: 0;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.contact-form {
+  text-align: left;
+  margin-left: 33.3%;
+}
+
+.other-contacts {
+  margin-top: 3rem;
+  width: 100%;
+  border-top: 1px solid rgb(180, 187, 188);
+}
+
+.social-media-contacts {
+  margin-left: 33.3%;
+}
+
+label {
+  display: block;
+}
+
+input[type='text'], input[type='email'] {
+  width: 30rem;
+}
+
+textarea {
+  width: 30rem;
+  height: 8rem;
+}
+
 
 @media only screen and (max-width: 700px) {
   .bio > h2 {

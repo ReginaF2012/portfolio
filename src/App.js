@@ -5,21 +5,25 @@ import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <Router>
-      < Header />
-      < Sidebar />
+      <Header/>
+      <Sidebar/>
       <Switch>
         <Route exact path='/'>
-          < Home />
+          <Home/>
         </Route>
         <Route exact path='/portfolio'>
-          < Portfolio />
+          <Portfolio/>
+        </Route>
+        <Route exact path='/contact' >
+          <Contact/>
         </Route>
       </Switch>
-      < Footer />
+      <Footer/>
     </Router>
     
   );

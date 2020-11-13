@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ghMark from '../images/GitHub-Mark-32px.png';
-import liMark from '../images/LI-In-Bug.png';
-import MediumMark from '../images/Medium-logo.png';
 import SocialMediaIcon from './SocialMediaIcon';
+import GitHub from '../images/GitHub-Mark-32px.png';
+import LinkedIn from '../images/LI-In-Bug.png';
+import Medium from '../images/Medium-Symbol-White-RGB@1x.png';
+
 
 export default function Header(){
     return (
@@ -13,9 +14,11 @@ export default function Header(){
                 <Link to='/'>// Regina Furness</Link>
             </div>
             <div className='contact-links'>
-                < SocialMediaIcon icon={ghMark} link='https://github.com/ReginaF2012' />
-                < SocialMediaIcon icon={liMark} link='https://www.linkedin.com/in/regina-furness/' />
-                < SocialMediaIcon icon={MediumMark} link='https://reginafurness.medium.com/' />
+              <div className='social-media-group'>
+                    <SocialMediaIcon stylingClass='sm-logo white' icon={GitHub} link='https://github.com/ReginaF2012'/>
+                    <SocialMediaIcon stylingClass='sm-logo' icon={Medium} link='https://reginafurness.medium.com/'/>
+                    <SocialMediaIcon stylingClass='sm-logo white' icon={LinkedIn} link='https://www.linkedin.com/in/regina-furness/'/>
+                </div>
             </div>
         </div>
     )
