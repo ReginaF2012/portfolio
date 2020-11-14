@@ -10,11 +10,11 @@ import Resume from './components/Resume'
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header/>
       <Sidebar/>
       <Switch>
-        <Route exact path='/regina-portfolio/'>
+        <Route exact path='/'>
           <Home/>
         </Route>
         <Route exact path='/regina-portfolio/portfolio'>
