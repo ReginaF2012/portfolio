@@ -14,16 +14,16 @@ function App() {
       <Header/>
       <Sidebar/>
       <Switch>
-        <Route exact path='/'>
+        <Route exact path='/regina-portfolio/'>
           <Home/>
         </Route>
-        <Route exact path='/portfolio'>
+        <Route exact path='/regina-portfolio/portfolio'>
           <Portfolio/>
         </Route>
-        <Route exact path='/contact' >
+        <Route exact path='/regina-portfolio/contact' >
           <Contact/>
         </Route>
-        <Route exact path='/resume'>
+        <Route exact path='/regina-portfolio/resume'>
           <Resume/>
         </Route>
       </Switch>
