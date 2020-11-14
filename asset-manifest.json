@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.01ee3178.chunk.css",
-    "main.js": "/static/js/main.1de8a25b.chunk.js",
-    "main.js.map": "/static/js/main.1de8a25b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f0e10ad6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f0e10ad6.js.map",
-    "static/js/2.b1d81ecd.chunk.js": "/static/js/2.b1d81ecd.chunk.js",
-    "static/js/2.b1d81ecd.chunk.js.map": "/static/js/2.b1d81ecd.chunk.js.map",
-    "static/js/3.6a87273c.chunk.js": "/static/js/3.6a87273c.chunk.js",
-    "static/js/3.6a87273c.chunk.js.map": "/static/js/3.6a87273c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.01ee3178.chunk.css.map": "/static/css/main.01ee3178.chunk.css.map",
-    "static/js/2.b1d81ecd.chunk.js.LICENSE.txt": "/static/js/2.b1d81ecd.chunk.js.LICENSE.txt",
-    "static/media/20200825_071055.ce3d951f.jpg": "/static/media/20200825_071055.ce3d951f.jpg",
-    "static/media/GitHub_Logo_White.6149aa5c.png": "/static/media/GitHub_Logo_White.6149aa5c.png",
-    "static/media/LI-Logo.a95afc06.png": "/static/media/LI-Logo.a95afc06.png",
-    "static/media/Medium-Symbol-White-RGB@1x.168f314c.png": "/static/media/Medium-Symbol-White-RGB@1x.168f314c.png",
-    "static/media/Medium-Wordmark-White-RGB@1x.7e72a533.png": "/static/media/Medium-Wordmark-White-RGB@1x.7e72a533.png"
+    "main.css": "/regina-portfolio/static/css/main.01ee3178.chunk.css",
+    "main.js": "/regina-portfolio/static/js/main.271cc7c7.chunk.js",
+    "main.js.map": "/regina-portfolio/static/js/main.271cc7c7.chunk.js.map",
+    "runtime-main.js": "/regina-portfolio/static/js/runtime-main.c86801cd.js",
+    "runtime-main.js.map": "/regina-portfolio/static/js/runtime-main.c86801cd.js.map",
+    "static/js/2.b1d81ecd.chunk.js": "/regina-portfolio/static/js/2.b1d81ecd.chunk.js",
+    "static/js/2.b1d81ecd.chunk.js.map": "/regina-portfolio/static/js/2.b1d81ecd.chunk.js.map",
+    "static/js/3.6a87273c.chunk.js": "/regina-portfolio/static/js/3.6a87273c.chunk.js",
+    "static/js/3.6a87273c.chunk.js.map": "/regina-portfolio/static/js/3.6a87273c.chunk.js.map",
+    "index.html": "/regina-portfolio/index.html",
+    "static/css/main.01ee3178.chunk.css.map": "/regina-portfolio/static/css/main.01ee3178.chunk.css.map",
+    "static/js/2.b1d81ecd.chunk.js.LICENSE.txt": "/regina-portfolio/static/js/2.b1d81ecd.chunk.js.LICENSE.txt",
+    "static/media/20200825_071055.ce3d951f.jpg": "/regina-portfolio/static/media/20200825_071055.ce3d951f.jpg",
+    "static/media/GitHub_Logo_White.6149aa5c.png": "/regina-portfolio/static/media/GitHub_Logo_White.6149aa5c.png",
+    "static/media/LI-Logo.a95afc06.png": "/regina-portfolio/static/media/LI-Logo.a95afc06.png",
+    "static/media/Medium-Symbol-White-RGB@1x.168f314c.png": "/regina-portfolio/static/media/Medium-Symbol-White-RGB@1x.168f314c.png",
+    "static/media/Medium-Wordmark-White-RGB@1x.7e72a533.png": "/regina-portfolio/static/media/Medium-Wordmark-White-RGB@1x.7e72a533.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0e10ad6.js",
+    "static/js/runtime-main.c86801cd.js",
     "static/js/2.b1d81ecd.chunk.js",
     "static/css/main.01ee3178.chunk.css",
-    "static/js/main.1de8a25b.chunk.js"
+    "static/js/main.271cc7c7.chunk.js"
   ]
 }
