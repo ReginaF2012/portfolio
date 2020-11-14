@@ -33,7 +33,7 @@ export default function EmbeddedEmail() {
             <textarea id='message' name='message' placeholder="Let's talk about it..."/>  
         </div>
         <div className='input-group'>
-            <input type='submit' value='Send' />
+            <button className='email-button' type='submit'>send</button>
         </div>
     </form>
   );

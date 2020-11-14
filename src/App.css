@@ -177,46 +177,84 @@ body {
   filter: brightness(0) invert(1);
 }
 
+.resume {
+  padding-left: 4rem;
+  padding-top: 8rem;
+  
+}
+
 .contact {
-  margin-left: 0;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
-  display: inline-block;
-  vertical-align: middle;
-  width: 100%;
 }
 
-.contact-form {
-  text-align: left;
-  margin-left: 33.3%;
+.contact h1, h2 {
+  color: 	rgb(35, 170, 242);
 }
 
-.other-contacts {
-  margin-top: 3rem;
-  width: 100%;
-  border-top: 1px solid rgb(180, 187, 188);
-}
-
-.social-media-contacts {
-  margin-left: 33.3%;
-}
-
-label {
+label, button {
   display: block;
+  margin-left: 35%;
+  text-align: left;
 }
 
-input[type='text'], input[type='email'] {
-  width: 30rem;
+input, textarea {
+  width: 30%;  
 }
 
 textarea {
-  width: 30rem;
   height: 8rem;
+}
+
+.email-button {
+  /* float: left; */
+  margin-bottom: 5%;
+  padding: 10px;
+  /* display: inline-block;
+  text-align: center; */
+  /* border-radius: 100px; */
+  /* text-decoration: none; */
+  /* text-transform: uppercase; */
+  /* width: width-button; */
+  cursor: pointer;
+  background: -webkit-linear-gradient(#17EAD9, #5B247A);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social-media-contacts {
+  margin-left: 29%;
+}
+
+.other-contacts {
+  padding-bottom: 10rem;
+  border-top: 1px solid rgba(180, 187, 188, 0.212);
 }
 
 
 @media only screen and (max-width: 700px) {
+
+  .resume {
+    padding-left: 0;
+  }
+
   .bio > h2 {
     font-size: 1em;
+  }
+
+  .contact {
+    padding-left: 30%;
+  }
+
+  input, textarea {
+    width: 75%;  
+  }
+
+  label, button {
+    display: block;
+    margin-left: 12%;
+    text-align: left;
   }
 
   .regina-picture {
@@ -231,6 +269,17 @@ textarea {
     width: 75%;
     display: block;
   }
+
+  .large-logo {
+    height: 16px;
+    width: auto;
+  }
+  
+  .large-linkedin {
+    height: 14px;
+    width: auto;
+  }
+
 }
 
 

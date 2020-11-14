@@ -20,6 +20,11 @@ export default function Sidebar(){
                 <Link to='/contact'>contact</Link>
             </div>
 
+            <div className='nav-item'>
+                <span class="iconify" data-icon="entypo-chevron-thin-right" data-inline="false"></span>
+                <Link to='/resume'>resume</Link>
+            </div>
+
         </div>
     )
 }

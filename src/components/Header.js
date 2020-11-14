@@ -15,9 +15,24 @@ export default function Header(){
             </div>
             <div className='contact-links'>
               <div className='social-media-group'>
-                    <SocialMediaIcon stylingClass='sm-logo white' icon={GitHub} link='https://github.com/ReginaF2012'/>
-                    <SocialMediaIcon stylingClass='sm-logo' icon={Medium} link='https://reginafurness.medium.com/'/>
-                    <SocialMediaIcon stylingClass='sm-logo white' icon={LinkedIn} link='https://www.linkedin.com/in/regina-furness/'/>
+                    <SocialMediaIcon 
+                        stylingClass='sm-logo white' 
+                        icon={GitHub} 
+                        link='https://github.com/ReginaF2012'
+                        titleText='GitHub'
+                    />
+                    <SocialMediaIcon 
+                        stylingClass='sm-logo' 
+                        icon={Medium} 
+                        link='https://reginafurness.medium.com/'
+                        titleText='Medium'
+                    />
+                    <SocialMediaIcon 
+                        stylingClass='sm-logo white' 
+                        icon={LinkedIn} 
+                        link='https://www.linkedin.com/in/regina-furness/'
+                        titleText='LinkedIn'
+                    />
                 </div>
             </div>
         </div>
