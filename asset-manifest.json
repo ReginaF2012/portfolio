@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/regina-portfolio/static/css/main.01ee3178.chunk.css",
-    "main.js": "/regina-portfolio/static/js/main.dd139eca.chunk.js",
-    "main.js.map": "/regina-portfolio/static/js/main.dd139eca.chunk.js.map",
+    "main.js": "/regina-portfolio/static/js/main.b8d71cba.chunk.js",
+    "main.js.map": "/regina-portfolio/static/js/main.b8d71cba.chunk.js.map",
     "runtime-main.js": "/regina-portfolio/static/js/runtime-main.c86801cd.js",
     "runtime-main.js.map": "/regina-portfolio/static/js/runtime-main.c86801cd.js.map",
     "static/js/2.b1d81ecd.chunk.js": "/regina-portfolio/static/js/2.b1d81ecd.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.c86801cd.js",
     "static/js/2.b1d81ecd.chunk.js",
     "static/css/main.01ee3178.chunk.css",
-    "static/js/main.dd139eca.chunk.js"
+    "static/js/main.b8d71cba.chunk.js"
   ]
 }
