@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
@@ -10,7 +10,7 @@ import Resume from './components/Resume'
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Header/>
       <Sidebar/>
       <Switch>
@@ -28,7 +28,7 @@ function App() {
         </Route>
       </Switch>
       <Footer/>
-    </Router>
+    </HashRouter>
     
   );
 }
