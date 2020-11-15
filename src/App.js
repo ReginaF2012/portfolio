@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
@@ -10,25 +10,25 @@ import Resume from './components/Resume'
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <Router>
       <Header/>
       <Sidebar/>
       <Switch>
-        <Route exact path='/'>
+        <Route exact path={process.env.PUBLIC_URL + '/'}>
           <Home/>
         </Route>
-        <Route exact path='/portfolio'>
+        <Route exact path={process.env.PUBLIC_URL + '/portfolio'}>
           <Portfolio/>
         </Route>
-        <Route exact path='/contact' >
+        <Route exact path={process.env.PUBLIC_URL + '/contact'} >
           <Contact/>
         </Route>
-        <Route exact path='/resume'>
+        <Route exact path={process.env.PUBLIC_URL + '/contact'}>
           <Resume/>
         </Route>
       </Switch>
       <Footer/>
-    </HashRouter>
+    </Router>
     
   );
 }
