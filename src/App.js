@@ -17,13 +17,13 @@ function App() {
         <Route exact path='/'>
           <Home/>
         </Route>
-        <Route exact path='/regina-portfolio/portfolio'>
+        <Route exact path='/portfolio'>
           <Portfolio/>
         </Route>
-        <Route exact path='/regina-portfolio/contact' >
+        <Route exact path='/contact' >
           <Contact/>
         </Route>
-        <Route exact path='/regina-portfolio/resume'>
+        <Route exact path='/resume'>
           <Resume/>
         </Route>
       </Switch>
