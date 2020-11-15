@@ -23,7 +23,7 @@ function App() {
         <Route exact path={process.env.PUBLIC_URL + '/contact'} >
           <Contact/>
         </Route>
-        <Route exact path={process.env.PUBLIC_URL + '/contact'}>
+        <Route exact path={process.env.PUBLIC_URL + '/resume'}>
           <Resume/>
         </Route>
       </Switch>
