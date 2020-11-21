@@ -7,22 +7,22 @@ export default function Sidebar(){
         <div className='sidebar'>
             <div className='nav-item'>
                 <span class="iconify" data-icon="entypo-chevron-thin-right" data-inline="false"></span>
-                <Link to='/'>about</Link>
+                <Link to={process.env.PUBLIC_URL + '/'}>about</Link>
             </div>  
 
             <div className='nav-item'>
                 <span class="iconify" data-icon="entypo-chevron-thin-right" data-inline="false"></span>
-                <Link to='/portfolio'>portfolio</Link>   
+                <Link to={process.env.PUBLIC_URL + '/portfolio'}>portfolio</Link>   
             </div>
 
             <div className='nav-item'>
                 <span class="iconify" data-icon="entypo-chevron-thin-right" data-inline="false"></span>
-                <Link to='/contact'>contact</Link>
+                <Link to={process.env.PUBLIC_URL + '/contact'}>contact</Link>
             </div>
 
             <div className='nav-item'>
                 <span class="iconify" data-icon="entypo-chevron-thin-right" data-inline="false"></span>
-                <Link to='/resume'>resume</Link>
+                <Link to={process.env.PUBLIC_URL + '/resume'}>resume</Link>
             </div>
 
         </div>

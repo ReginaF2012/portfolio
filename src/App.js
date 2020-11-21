@@ -14,16 +14,16 @@ function App() {
       <Header/>
       <Sidebar/>
       <Switch>
-        <Route exact path='/'>
+        <Route exact path={process.env.PUBLIC_URL + '/'}>
           <Home/>
         </Route>
-        <Route exact path='/portfolio'>
+        <Route exact path={process.env.PUBLIC_URL + '/portfolio'}>
           <Portfolio/>
         </Route>
-        <Route exact path='/contact' >
+        <Route exact path={process.env.PUBLIC_URL + '/contact'} >
           <Contact/>
         </Route>
-        <Route exact path='/resume'>
+        <Route exact path={process.env.PUBLIC_URL + '/resume'}>
           <Resume/>
         </Route>
       </Switch>
