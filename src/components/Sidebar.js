@@ -22,7 +22,7 @@ export default function Sidebar(){
 
             <div className='nav-item'>
                 <span class="iconify" data-icon="entypo-chevron-thin-right" data-inline="false"></span>
-                <Link to={process.env.PUBLIC_URL + '/resume'>resume</Link>
+                <Link to='/resume'>resume</Link>
             </div>
 
         </div>
